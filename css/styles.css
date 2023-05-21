@@ -1,0 +1,238 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #E5E5E5;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+/* styling the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+/* styling the nav-links */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 25%;
+  margin: 10px 25px 0 0;
+  padding-left: 0px;
+}
+
+/* nav anchors */
+.nav-links a {
+  color: black;
+  font-weight: 700;
+}
+.nav-links a:hover {
+  color:#7D0A80;
+  border-bottom: 3px solid #02C567 ;
+}
+.nav-links li {
+  float: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+/* styling the nav-icons */
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin:5px 15px 0 0;
+}
+.fa-shopping-cart {
+  font-size: 25px;
+  background-image: linear-gradient(192.65deg, #7D0A80 -19.7%, #02C567 99.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*styling the second section*/
+.section {
+  display: flex;
+  flex-direction: column;
+  margin:10px auto;
+  padding-left: 30px;
+  height: 300px;
+  width: 1270px;
+  background: #02C567;
+  border-radius: 8px;
+  background-image: url('/hero-img.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+/* styling the div text */
+[class*="text"] {
+  color: white;
+}
+.text1, .text2 {
+  font-size: 25px;
+}
+
+.text3 {
+  position: absolute;
+  top: 318px;
+  left: 450px;
+  font-size: 20px;
+}
+
+/* heading*/
+.heading {
+  text-align: center;
+  font-size: 23px;
+}
+
+/* product section */
+.product_section {
+  display: grid;
+  justify-content: center;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, 313px);
+  grid-template-rows: repeat(4, 353px);
+}
+
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+  transition: height 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.product:hover {
+  height: 360px ;
+  box-shadow: 0 0 15px #02C567;
+}
+
+/* positioning the product desription */
+span {
+  display: inline-block;
+  margin-left: 12px;
+}
+/* styling the button */
+.btn {
+  display: none;
+  height: 45px;
+  width: 188px;
+  background-color: #7D0A80;
+  border-radius: 4px;
+  color: white;
+  margin: 5px 0 0 12px;
+}
+.product:hover .btn {
+  display:block;
+}
+.fa-cart-plus {
+  margin-right: 8px;
+  color: white;
+}
+/* styling the heart */
+.heart {
+  display: flex;
+  cursor: pointer;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #F3F3F3;
+  box-shadow: 0 0 9px #7D0A80;
+  border-radius: 50%;
+  z-index: 1;
+}
+.product:hover .heart {
+  opacity:1;
+}
+.fa-heart-o {
+  color: #02C567;
+  text-align: center;
+}
+/* styling the text under the product section */
+.bottom_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.see_more {
+  font-size: 23px;
+  color:#c02dc5;  
+}
+.seemore {
+  text-decoration: none;
+}
+.pages {
+  margin-top: 0;
+  color: black;
+}
+.one {
+  color: #c02dc5;
+  margin-right: 2px;
+}
+
+/* Styling the footer section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 105px;
+  width: 1139px;
+  height: 300px;
+  background-color: #B2ADD4;
+}
+/* footer img */
+.Logo {
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+/* first list */
+.search_links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+}
+.search_links a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+/* second list */
+.search_links i {
+  margin-right: 5px;
+  color: #2F88FF;
+}
+/* headers */
+.head {
+  font-size: 23px;
+  font-weight: bold;
+}
+/* copyright */
+.copyright {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+}
