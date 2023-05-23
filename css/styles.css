@@ -282,14 +282,14 @@ span {
 }
 /* product section */
 .product_section {
-  grid-template-columns: repeat(auto-fit, 160px);
-  grid-template-rows: repeat(8, 195px);
+  grid-template-columns: repeat(auto-fit, 167px);
+  grid-template-rows: repeat(8, 210px);
 }
 .product {
   font-size: 11px;
 }
 .product:hover {
-  height: 200px;
+  height: 210px;
   box-shadow: 0 0 9px #02C567;
 }
 /* styling the button */
