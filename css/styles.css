@@ -67,7 +67,7 @@ html, body {
   padding-left: 30px;
   height: 300px;
   width: 1270px;
-  background: #02C567;
+  background-color: #02C567;
   border-radius: 8px;
   background-image: url('/hero-img.png');
   background-repeat: no-repeat;
@@ -524,7 +524,7 @@ span {
   }
   .text3 {
     position: absolute;
-    top:175px ;
+    top:145px ;
     left:40px;
     font-size: 11px;
   }
