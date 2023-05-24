@@ -69,7 +69,7 @@ html, body {
   width: 1270px;
   background-color: #02C567;
   border-radius: 8px;
-  background-image: url('/hero-img.png');
+  background-image: url(/hero-img.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
