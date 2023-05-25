@@ -69,13 +69,10 @@ html, body {
   width: 1270px;
   background-color: #02C567;
   border-radius: 8px;
+  background-image: url(/hero-img.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
-
-.section > img {
-  position: absolute;
-  right: 0;
-}
-
 /* styling the div text */
 [class*="text"] {
   color: white;
@@ -528,8 +525,8 @@ span {
   .text3 {
     position: absolute;
     top:145px ;
-    left:28px;
-    font-size: 10px;
+    left:40px;
+    font-size: 11px;
   }
   /* heading before the products*/
   .heading {
@@ -610,34 +607,3 @@ span {
     display: flex;
   }
   }
-
-@media screen and (max-width: 400px) {
-  .section > .text3 {
-    top: 140px;
-    left: 17px;
-    font-size: 8px;
-  }
-}
-
-@media (max-width: 700px) {
-  .section {
-    width: 100%;
-    height: 150px;
-    background-size: 60cqw ;
-    background-position: 50cqw bottom;
-  }
-
-  .section > img {
-    display: block;
-    position: absolute;
-    right: 0;
-    height: 150px;
-  }
-}
-
-@media (max-width: 423px) {
-  .section > img {
-    display: none
-  }
-  
-}
